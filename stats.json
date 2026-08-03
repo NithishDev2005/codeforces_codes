@@ -1,22 +1,24 @@
 {
-  "totalSolved": 1,
+  "totalSolved": 2,
   "currentStreak": 1,
   "maxStreak": 1,
   "lastSyncDate": "2026-08-03",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 0,
     "medium": 0,
     "hard": 0,
-    "basic": 1
+    "basic": 2
   },
   "syncedProblems": {
-    "Codeforces_266B_-_Queue_at_the_School": true
+    "Codeforces_266B_-_Queue_at_the_School": true,
+    "Codeforces_2247B_-_Yet_Another_Constructive": true
   },
   "activityHistory": {
-    "2026-08-03": 1
+    "2026-08-03": 2
   },
   "todayProblems": [
-    "266B - Queue at the School"
+    "266B - Queue at the School",
+    "2247B - Yet Another Constructive"
   ]
 }

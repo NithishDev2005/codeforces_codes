@@ -1,25 +1,27 @@
 {
-  "totalSolved": 3,
+  "totalSolved": 4,
   "currentStreak": 2,
   "maxStreak": 2,
   "lastSyncDate": "2026-08-04",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 1,
-    "medium": 0,
+    "medium": 1,
     "hard": 0,
     "basic": 2
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
     "Codeforces_2247B_-_Yet_Another_Constructive": true,
-    "LeetCode_Find_Missing_Elements": true
+    "LeetCode_Find_Missing_Elements": true,
+    "LeetCode_Maximum_Points_You_Can_Obtain_from_Cards": true
   },
   "activityHistory": {
     "2026-08-03": 2,
-    "2026-08-04": 1
+    "2026-08-04": 2
   },
   "todayProblems": [
-    "Find Missing Elements"
+    "Find Missing Elements",
+    "Maximum Points You Can Obtain from Cards"
   ]
 }

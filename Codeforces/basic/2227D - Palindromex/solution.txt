@@ -1,0 +1,67 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    static int n;
+    static int[] a;
+
+    static int solve(int l, int r) {
+        boolean[] seen = new boolean[n + 1];
+
+        while (l >= 0 && r < 2 * n && a[l] == a[r]) {
+            seen[a[l]] = true;
+            l--;
+            r++;
+        }
+
+        int mex = 0;
+        while (mex <= n && seen[mex]) mex++;
+        return mex;
+    }
+
+    public static void main(String[] args) throws Exception {
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder out = new StringBuilder();
+
+        int t = Integer.parseInt(br.readLine());
+
+        while (t-- > 0) {
+
+            n = Integer.parseInt(br.readLine());
+
+            a = new int[2 * n];
+
+            StringTokenizer st = new StringTokenizer(br.readLine());
+
+            int firstZero = -1;
+            int secondZero = -1;
+
+            for (int i = 0; i < 2 * n; i++) {
+                a[i] = Integer.parseInt(st.nextToken());
+
+                if (a[i] == 0) {
+                    if (firstZero == -1)
+                        firstZero = i;
+                    else
+                        secondZero = i;
+                }
+            }
+
+            int ans = 1;
+
+            ans = Math.max(ans, solve(firstZero, firstZero));
+            ans = Math.max(ans, solve(secondZero, secondZero));
+
+            int left = (firstZero + secondZero) / 2;
+            int right = (firstZero + secondZero + 1) / 2;
+
+            ans = Math.max(ans, solve(left, right));
+
+            out.append(ans).append('\n');
+        }
+
+        System.out.print(out);
+    }
+}

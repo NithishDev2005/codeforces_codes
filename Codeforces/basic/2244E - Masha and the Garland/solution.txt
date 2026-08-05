@@ -1,0 +1,83 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder out = new StringBuilder();
+
+        int t = Integer.parseInt(br.readLine());
+
+        while (t-- > 0) {
+
+            StringTokenizer st = new StringTokenizer(br.readLine());
+
+            int n = Integer.parseInt(st.nextToken());
+            int q = Integer.parseInt(st.nextToken());
+
+            String s = br.readLine();
+
+            int[] m0 = new int[n + 1];
+            int[] m1 = new int[n + 1];
+
+            int[] pref0 = new int[n + 1];
+            int[] pref1 = new int[n + 1];
+
+            // Build mismatch arrays
+            for (int i = 1; i <= n; i++) {
+
+                char current = s.charAt(i - 1);
+
+                char expected0 = (i % 2 == 1) ? '0' : '1';
+
+                if (current == expected0)
+                    m0[i] = 0;
+                else
+                    m0[i] = 1;
+
+                m1[i] = 1 - m0[i];
+            }
+
+            // Prefix count of mismatch blocks
+            for (int i = 1; i <= n; i++) {
+
+                pref0[i] = pref0[i - 1];
+                pref1[i] = pref1[i - 1];
+
+                if (m0[i] == 1 && (i == 1 || m0[i - 1] == 0))
+                    pref0[i]++;
+
+                if (m1[i] == 1 && (i == 1 || m1[i - 1] == 0))
+                    pref1[i]++;
+            }
+
+            while (q-- > 0) {
+
+                st = new StringTokenizer(br.readLine());
+
+                int l = Integer.parseInt(st.nextToken());
+                int r = Integer.parseInt(st.nextToken());
+                int k = Integer.parseInt(st.nextToken());
+
+                int runs0 = pref0[r] - pref0[l - 1];
+
+                if (l > 1 && m0[l] == 1 && m0[l - 1] == 1)
+                    runs0++;
+
+                int runs1 = pref1[r] - pref1[l - 1];
+
+                if (l > 1 && m1[l] == 1 && m1[l - 1] == 1)
+                    runs1++;
+
+                if (Math.min(runs0, runs1) <= k)
+                    out.append("YES\n");
+                else
+                    out.append("NO\n");
+            }
+        }
+
+        System.out.print(out);
+    }
+}

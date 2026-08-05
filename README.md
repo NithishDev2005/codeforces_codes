@@ -5,3 +5,4 @@
 | 3 | [Find Missing Elements](./LeetCode/Easy/Find%20Missing%20Elements) | [LeetCode](https://leetcode.com/problems/find-missing-elements/) | Easy | 04 Aug 2026 | 08:06 am |
 | 4 | [Maximum Points You Can Obtain from Cards](./LeetCode/Medium/Maximum%20Points%20You%20Can%20Obtain%20from%20Cards) | [LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | Medium | 04 Aug 2026 | 06:47 pm |
 | 5 | [Removing Stars From a String](./LeetCode/Medium/Removing%20Stars%20From%20a%20String) | [LeetCode](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | 05 Aug 2026 | 09:25 am |
+| 6 | [Remove Methods From Project](./LeetCode/Medium/Remove%20Methods%20From%20Project) | [LeetCode](https://leetcode.com/problems/remove-methods-from-project/) | Medium | 05 Aug 2026 | 09:34 am |

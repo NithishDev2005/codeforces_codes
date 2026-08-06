@@ -8,3 +8,4 @@
 | 6 | [Remove Methods From Project](./LeetCode/Medium/Remove%20Methods%20From%20Project) | [LeetCode](https://leetcode.com/problems/remove-methods-from-project/) | Medium | 05 Aug 2026 | 09:34 am |
 | 7 | [2244E - Masha and the Garland](./Codeforces/basic/2244E%20-%20Masha%20and%20the%20Garland) | [Codeforces](https://codeforces.com/problemset/problem/2244/E) | basic | 05 Aug 2026 | 09:55 pm |
 | 8 | [2227D - Palindromex](./Codeforces/basic/2227D%20-%20Palindromex) | [Codeforces](https://codeforces.com/problemset/problem/2227/D) | basic | 05 Aug 2026 | 10:15 pm |
+| 9 | [Smallest Divisible Digit Product I](./LeetCode/Easy/Smallest%20Divisible%20Digit%20Product%20I) | [LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | Easy | 06 Aug 2026 | 10:03 am |

@@ -1,14 +1,14 @@
 {
-  "totalSolved": 9,
+  "totalSolved": 10,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-08-06",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 2,
     "medium": 3,
     "hard": 0,
-    "basic": 4
+    "basic": 5
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
@@ -19,15 +19,17 @@
     "LeetCode_Remove_Methods_From_Project": true,
     "Codeforces_2244E_-_Masha_and_the_Garland": true,
     "Codeforces_2227D_-_Palindromex": true,
-    "LeetCode_Smallest_Divisible_Digit_Product_I": true
+    "LeetCode_Smallest_Divisible_Digit_Product_I": true,
+    "Codeforces_2249A_-_Rank_Subsequence": true
   },
   "activityHistory": {
     "2026-08-03": 2,
     "2026-08-04": 2,
     "2026-08-05": 4,
-    "2026-08-06": 1
+    "2026-08-06": 2
   },
   "todayProblems": [
-    "Smallest Divisible Digit Product I"
+    "Smallest Divisible Digit Product I",
+    "2249A - Rank Subsequence"
   ]
 }

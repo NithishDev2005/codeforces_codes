@@ -1,0 +1,77 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    static boolean canMake(int m, int n,
+                           int[] l, int[] r,
+                           int[] u, int[] v) {
+
+        int j = 1; // next position to fill in subsequence
+
+        for (int i = 0; i < n && j <= m; i++) {
+
+            int leftRank = j;
+            int rightRank = m - j + 1;
+
+            boolean leftValid =
+                    leftRank < l[i] || leftRank > r[i];
+
+            boolean rightValid =
+                    rightRank < u[i] || rightRank > v[i];
+
+            if (leftValid && rightValid) {
+                j++;
+            }
+        }
+
+        // Filled positions 1...m
+        return j == m + 1;
+    }
+
+    public static void main(String[] args) throws Exception {
+
+        BufferedReader br =
+                new BufferedReader(new InputStreamReader(System.in));
+
+        StringBuilder output = new StringBuilder();
+
+        int t = Integer.parseInt(br.readLine());
+
+        while (t-- > 0) {
+
+            int n = Integer.parseInt(br.readLine());
+
+            int[] l = new int[n];
+            int[] r = new int[n];
+            int[] u = new int[n];
+            int[] v = new int[n];
+
+            for (int i = 0; i < n; i++) {
+
+                StringTokenizer st =
+                        new StringTokenizer(br.readLine());
+
+                l[i] = Integer.parseInt(st.nextToken());
+                r[i] = Integer.parseInt(st.nextToken());
+                u[i] = Integer.parseInt(st.nextToken());
+                v[i] = Integer.parseInt(st.nextToken());
+            }
+
+            int answer = 0;
+
+            // Try largest length first
+            for (int m = n; m >= 1; m--) {
+
+                if (canMake(m, n, l, r, u, v)) {
+                    answer = m;
+                    break;
+                }
+            }
+
+            output.append(answer).append('\n');
+        }
+
+        System.out.print(output);
+    }
+}

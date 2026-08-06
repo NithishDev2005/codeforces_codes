@@ -1,14 +1,14 @@
 {
-  "totalSolved": 11,
+  "totalSolved": 12,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-08-06",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 2,
     "medium": 3,
     "hard": 0,
-    "basic": 6
+    "basic": 7
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
@@ -21,17 +21,19 @@
     "Codeforces_2227D_-_Palindromex": true,
     "LeetCode_Smallest_Divisible_Digit_Product_I": true,
     "Codeforces_2249A_-_Rank_Subsequence": true,
-    "Codeforces_2248D_-_Good_Pair_Queries": true
+    "Codeforces_2248D_-_Good_Pair_Queries": true,
+    "Codeforces_2248C_-_Maximize_the_Score": true
   },
   "activityHistory": {
     "2026-08-03": 2,
     "2026-08-04": 2,
     "2026-08-05": 4,
-    "2026-08-06": 3
+    "2026-08-06": 4
   },
   "todayProblems": [
     "Smallest Divisible Digit Product I",
     "2249A - Rank Subsequence",
-    "2248D - Good Pair Queries"
+    "2248D - Good Pair Queries",
+    "2248C - Maximize the Score"
   ]
 }

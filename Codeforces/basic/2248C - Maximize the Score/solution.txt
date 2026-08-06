@@ -1,0 +1,89 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+
+        BufferedReader br = new BufferedReader(
+                new InputStreamReader(System.in)
+        );
+
+        StringBuilder out = new StringBuilder();
+
+        int T = Integer.parseInt(br.readLine());
+
+        while (T-- > 0) {
+
+            int n = Integer.parseInt(br.readLine());
+            int m = 2 * n;
+
+            int[] a = new int[m];
+
+            StringTokenizer st = new StringTokenizer(br.readLine());
+
+            for (int i = 0; i < m; i++) {
+                a[i] = Integer.parseInt(st.nextToken());
+            }
+
+            // first[x] = first occurrence of x
+            int[] first = new int[n + 1];
+
+            Arrays.fill(first, -1);
+
+            // left[r] = left endpoint of the pair
+            int[] left = new int[m];
+
+            Arrays.fill(left, -1);
+
+            for (int i = 0; i < m; i++) {
+
+                int x = a[i];
+
+                if (first[x] == -1) {
+                    first[x] = i;
+                } else {
+                    left[i] = first[x];
+                }
+            }
+
+            /*
+             * dp[i] = maximum EXTRA score using
+             * positions [0 ... i-1]
+             */
+            long[] dp = new long[m + 1];
+
+            for (int i = 1; i <= m; i++) {
+
+                // Don't use an interval ending here
+                dp[i] = dp[i - 1];
+
+                int r = i - 1;
+
+                // If this is the second occurrence
+                if (left[r] != -1) {
+
+                    int l = left[r];
+
+                    long len = r - l + 1L;
+
+                    // Extra gain:
+                    // len^2 instead of len individual points
+                    long gain = len * len - len;
+
+                    dp[i] = Math.max(
+                            dp[i],
+                            dp[l] + gain
+                    );
+                }
+            }
+
+            // Every element contributes at least 1
+            long answer = m + dp[m];
+
+            out.append(answer).append('\n');
+        }
+
+        System.out.print(out);
+    }
+}

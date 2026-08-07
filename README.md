@@ -12,3 +12,4 @@
 | 10 | [2249A - Rank Subsequence](./Codeforces/basic/2249A%20-%20Rank%20Subsequence) | [Codeforces](https://codeforces.com/problemset/problem/2249/A) | basic | 06 Aug 2026 | 06:42 pm |
 | 11 | [2248D - Good Pair Queries](./Codeforces/basic/2248D%20-%20Good%20Pair%20Queries) | [Codeforces](https://codeforces.com/problemset/problem/2248/D) | basic | 06 Aug 2026 | 06:48 pm |
 | 12 | [2248C - Maximize the Score](./Codeforces/basic/2248C%20-%20Maximize%20the%20Score) | [Codeforces](https://codeforces.com/problemset/problem/2248/C) | basic | 06 Aug 2026 | 06:51 pm |
+| 13 | [Smallest Divisible Digit Product II](./LeetCode/Hard/Smallest%20Divisible%20Digit%20Product%20II) | [LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | Hard | 07 Aug 2026 | 10:28 am |

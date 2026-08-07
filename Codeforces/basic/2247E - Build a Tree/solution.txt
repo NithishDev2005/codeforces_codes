@@ -1,0 +1,320 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    static class FastScanner {
+        private final InputStream in = System.in;
+        private final byte[] buffer = new byte[1 << 16];
+        private int ptr = 0, len = 0;
+
+        private int read() throws IOException {
+            if (ptr >= len) {
+                len = in.read(buffer);
+                ptr = 0;
+                if (len <= 0) return -1;
+            }
+            return buffer[ptr++];
+        }
+
+        long nextLong() throws IOException {
+            int c;
+            do {
+                c = read();
+            } while (c <= ' ');
+
+            long res = 0;
+
+            while (c > ' ') {
+                res = res * 10 + (c - '0');
+                c = read();
+            }
+
+            return res;
+        }
+
+        int nextInt() throws IOException {
+            return (int) nextLong();
+        }
+    }
+
+    static class Pair {
+        int cnt;
+        int id;
+
+        Pair(int cnt, int id) {
+            this.cnt = cnt;
+            this.id = id;
+        }
+    }
+
+    static void solve(
+            int n,
+            long k,
+            StringBuilder out) {
+
+        /*
+         * Calculate maximum possible k.
+         */
+        long top = 0;
+
+        for (int x = 1; x <= n / 2; x++) {
+
+            top += x;
+
+            if (2 * x <= n - 1) {
+                top += x;
+            }
+        }
+
+        top *= 2;
+
+        // Feasibility
+        if ((k & 1) == 1 ||
+            k < 2L * (n - 1) ||
+            k > top) {
+
+            out.append("-1\n");
+            return;
+        }
+
+        // Special case
+        if (n == 2) {
+            out.append("1 2\n");
+            return;
+        }
+
+        /*
+         * cnt[i] = size of i-th subtree
+         * connected to centroid 1.
+         */
+
+        ArrayList<Integer> cnt = new ArrayList<>();
+
+        cnt.add((n - 1) / 2);
+        cnt.add((n - 1) / 2);
+
+        if (n % 2 == 0) {
+            cnt.set(1, cnt.get(1) + 1);
+        }
+
+        long cur = top / 2;
+        long target = k / 2;
+
+        for (int i = 0; ; i++) {
+
+            int id = i % 2;
+
+            /*
+             * Split one vertex away from this subtree.
+             */
+            if (cnt.get(id) > 1 &&
+                cur - (cnt.get(id) - 1) >= target) {
+
+                cur -= cnt.get(id) - 1;
+
+                cnt.add(1);
+
+                cnt.set(
+                    id,
+                    cnt.get(id) - 1
+                );
+            }
+
+            /*
+             * We have reached the subtree where
+             * the final adjustment is needed.
+             */
+            else if (cnt.get(id) > 1 || cur == target) {
+
+                ArrayList<int[]> edges = new ArrayList<>();
+
+                int cr = 2;
+
+                int m = cnt.size();
+
+                int[] startv = new int[m];
+
+                /*
+                 * Construct all centroid subtrees.
+                 */
+                for (int j = 0; j < m; j++) {
+
+                    startv[j] = cr;
+
+                    if (j != id) {
+
+                        int prev = 1;
+
+                        for (int x = 0; x < cnt.get(j); x++) {
+
+                            edges.add(
+                                new int[]{prev, cr}
+                            );
+
+                            prev = cr;
+                            cr++;
+                        }
+                    }
+
+                    else {
+
+                        int prev = 1;
+                        int start = cr;
+
+                        for (int x = 0;
+                             x < cnt.get(j) - 1;
+                             x++) {
+
+                            edges.add(
+                                new int[]{prev, cr}
+                            );
+
+                            prev = cr;
+                            cr++;
+                        }
+
+                        int was = cnt.get(j);
+
+                        int neww =
+                            was - (int)(cur - target);
+
+                        if (neww == 1) {
+
+                            edges.add(
+                                new int[]{1, cr}
+                            );
+
+                            cr++;
+                        }
+
+                        else {
+
+                            edges.add(
+                                new int[]{
+                                    start + neww - 2,
+                                    cr
+                                }
+                            );
+
+                            cr++;
+                        }
+                    }
+                }
+
+                /*
+                 * Now relabel vertices.
+                 *
+                 * Consecutive labels must belong to
+                 * different centroid subtrees.
+                 */
+
+                TreeSet<Pair> set =
+                    new TreeSet<>(
+                        (a, b) -> {
+                            if (a.cnt != b.cnt)
+                                return Integer.compare(
+                                    a.cnt, b.cnt
+                                );
+
+                            return Integer.compare(
+                                a.id, b.id
+                            );
+                        }
+                    );
+
+                for (int j = 0; j < m; j++) {
+                    set.add(
+                        new Pair(cnt.get(j), j)
+                    );
+                }
+
+                int[] per = new int[n + 1];
+
+                per[1] = 1;
+
+                int last = -1;
+
+                for (int x = 2; x <= n; x++) {
+
+                    Pair best = null;
+
+                    /*
+                     * Get largest subtree different
+                     * from previous subtree.
+                     */
+                    Iterator<Pair> it =
+                        set.descendingIterator();
+
+                    while (it.hasNext()) {
+
+                        Pair p = it.next();
+
+                        if (p.id != last &&
+                            p.cnt > 0) {
+
+                            best = p;
+                            break;
+                        }
+                    }
+
+                    // Remove old version
+                    set.remove(best);
+
+                    int subtree = best.id;
+
+                    /*
+                     * Assign label x to the next vertex
+                     * of this subtree.
+                     */
+                    per[startv[subtree]] = x;
+
+                    startv[subtree]++;
+
+                    last = subtree;
+
+                    best.cnt--;
+
+                    // Insert updated version
+                    set.add(best);
+                }
+
+                /*
+                 * Apply permutation to edges.
+                 */
+                for (int[] e : edges) {
+
+                    int u = per[e[0]];
+                    int v = per[e[1]];
+
+                    out.append(u)
+                       .append(' ')
+                       .append(v)
+                       .append('\n');
+                }
+
+                break;
+            }
+        }
+    }
+
+    public static void main(String[] args)
+            throws Exception {
+
+        FastScanner fs = new FastScanner();
+
+        StringBuilder out = new StringBuilder();
+
+        int T = fs.nextInt();
+
+        while (T-- > 0) {
+
+            int n = fs.nextInt();
+            long k = fs.nextLong();
+
+            solve(n, k, out);
+        }
+
+        System.out.print(out);
+    }
+}

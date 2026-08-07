@@ -13,3 +13,4 @@
 | 11 | [2248D - Good Pair Queries](./Codeforces/basic/2248D%20-%20Good%20Pair%20Queries) | [Codeforces](https://codeforces.com/problemset/problem/2248/D) | basic | 06 Aug 2026 | 06:48 pm |
 | 12 | [2248C - Maximize the Score](./Codeforces/basic/2248C%20-%20Maximize%20the%20Score) | [Codeforces](https://codeforces.com/problemset/problem/2248/C) | basic | 06 Aug 2026 | 06:51 pm |
 | 13 | [Smallest Divisible Digit Product II](./LeetCode/Hard/Smallest%20Divisible%20Digit%20Product%20II) | [LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | Hard | 07 Aug 2026 | 10:28 am |
+| 14 | [2247E - Build a Tree](./Codeforces/basic/2247E%20-%20Build%20a%20Tree) | [Codeforces](https://codeforces.com/problemset/problem/2247/E) | basic | 07 Aug 2026 | 10:37 am |

@@ -1,14 +1,14 @@
 {
-  "totalSolved": 13,
+  "totalSolved": 14,
   "currentStreak": 5,
   "maxStreak": 5,
   "lastSyncDate": "2026-08-07",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 2,
     "medium": 3,
     "hard": 1,
-    "basic": 7
+    "basic": 8
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
@@ -23,16 +23,18 @@
     "Codeforces_2249A_-_Rank_Subsequence": true,
     "Codeforces_2248D_-_Good_Pair_Queries": true,
     "Codeforces_2248C_-_Maximize_the_Score": true,
-    "LeetCode_Smallest_Divisible_Digit_Product_II": true
+    "LeetCode_Smallest_Divisible_Digit_Product_II": true,
+    "Codeforces_2247E_-_Build_a_Tree": true
   },
   "activityHistory": {
     "2026-08-03": 2,
     "2026-08-04": 2,
     "2026-08-05": 4,
     "2026-08-06": 4,
-    "2026-08-07": 1
+    "2026-08-07": 2
   },
   "todayProblems": [
-    "Smallest Divisible Digit Product II"
+    "Smallest Divisible Digit Product II",
+    "2247E - Build a Tree"
   ]
 }

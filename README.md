@@ -14,3 +14,4 @@
 | 12 | [2248C - Maximize the Score](./Codeforces/basic/2248C%20-%20Maximize%20the%20Score) | [Codeforces](https://codeforces.com/problemset/problem/2248/C) | basic | 06 Aug 2026 | 06:51 pm |
 | 13 | [Smallest Divisible Digit Product II](./LeetCode/Hard/Smallest%20Divisible%20Digit%20Product%20II) | [LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | Hard | 07 Aug 2026 | 10:28 am |
 | 14 | [2247E - Build a Tree](./Codeforces/basic/2247E%20-%20Build%20a%20Tree) | [Codeforces](https://codeforces.com/problemset/problem/2247/E) | basic | 07 Aug 2026 | 10:37 am |
+| 15 | [Best Time to Buy and Sell Stock](./LeetCode/Easy/Best%20Time%20to%20Buy%20and%20Sell%20Stock) | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | 07 Aug 2026 | 11:41 am |

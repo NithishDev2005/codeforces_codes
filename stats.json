@@ -1,11 +1,11 @@
 {
-  "totalSolved": 14,
+  "totalSolved": 15,
   "currentStreak": 5,
   "maxStreak": 5,
   "lastSyncDate": "2026-08-07",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
-    "easy": 2,
+    "easy": 3,
     "medium": 3,
     "hard": 1,
     "basic": 8
@@ -24,17 +24,19 @@
     "Codeforces_2248D_-_Good_Pair_Queries": true,
     "Codeforces_2248C_-_Maximize_the_Score": true,
     "LeetCode_Smallest_Divisible_Digit_Product_II": true,
-    "Codeforces_2247E_-_Build_a_Tree": true
+    "Codeforces_2247E_-_Build_a_Tree": true,
+    "LeetCode_Best_Time_to_Buy_and_Sell_Stock": true
   },
   "activityHistory": {
     "2026-08-03": 2,
     "2026-08-04": 2,
     "2026-08-05": 4,
     "2026-08-06": 4,
-    "2026-08-07": 2
+    "2026-08-07": 3
   },
   "todayProblems": [
     "Smallest Divisible Digit Product II",
-    "2247E - Build a Tree"
+    "2247E - Build a Tree",
+    "Best Time to Buy and Sell Stock"
   ]
 }

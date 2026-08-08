@@ -15,3 +15,4 @@
 | 13 | [Smallest Divisible Digit Product II](./LeetCode/Hard/Smallest%20Divisible%20Digit%20Product%20II) | [LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | Hard | 07 Aug 2026 | 10:28 am |
 | 14 | [2247E - Build a Tree](./Codeforces/basic/2247E%20-%20Build%20a%20Tree) | [Codeforces](https://codeforces.com/problemset/problem/2247/E) | basic | 07 Aug 2026 | 10:37 am |
 | 15 | [Best Time to Buy and Sell Stock](./LeetCode/Easy/Best%20Time%20to%20Buy%20and%20Sell%20Stock) | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | 07 Aug 2026 | 11:41 am |
+| 16 | [Find the Lexicographically Smallest Valid Sequence](./LeetCode/Medium/Find%20the%20Lexicographically%20Smallest%20Valid%20Sequence) | [LeetCode](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | Medium | 08 Aug 2026 | 08:38 pm |

@@ -17,3 +17,4 @@
 | 15 | [Best Time to Buy and Sell Stock](./LeetCode/Easy/Best%20Time%20to%20Buy%20and%20Sell%20Stock) | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | 07 Aug 2026 | 11:41 am |
 | 16 | [Find the Lexicographically Smallest Valid Sequence](./LeetCode/Medium/Find%20the%20Lexicographically%20Smallest%20Valid%20Sequence) | [LeetCode](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | Medium | 08 Aug 2026 | 08:38 pm |
 | 17 | [Stone Game II](./LeetCode/Medium/Stone%20Game%20II) | [LeetCode](https://leetcode.com/problems/stone-game-ii/) | Medium | 09 Aug 2026 | 09:11 pm |
+| 18 | [Stone Game IV](./LeetCode/Hard/Stone%20Game%20IV) | [LeetCode](https://leetcode.com/problems/stone-game-iv/) | Hard | 10 Aug 2026 | 07:18 pm |

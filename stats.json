@@ -1,13 +1,13 @@
 {
-  "totalSolved": 17,
-  "currentStreak": 7,
-  "maxStreak": 7,
-  "lastSyncDate": "2026-08-09",
+  "totalSolved": 18,
+  "currentStreak": 8,
+  "maxStreak": 8,
+  "lastSyncDate": "2026-08-10",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 3,
     "medium": 5,
-    "hard": 1,
+    "hard": 2,
     "basic": 8
   },
   "syncedProblems": {
@@ -27,7 +27,8 @@
     "Codeforces_2247E_-_Build_a_Tree": true,
     "LeetCode_Best_Time_to_Buy_and_Sell_Stock": true,
     "LeetCode_Find_the_Lexicographically_Smallest_Valid_Sequence": true,
-    "LeetCode_Stone_Game_II": true
+    "LeetCode_Stone_Game_II": true,
+    "LeetCode_Stone_Game_IV": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -36,9 +37,10 @@
     "2026-08-06": 4,
     "2026-08-07": 3,
     "2026-08-08": 1,
-    "2026-08-09": 1
+    "2026-08-09": 1,
+    "2026-08-10": 1
   },
   "todayProblems": [
-    "Stone Game II"
+    "Stone Game IV"
   ]
 }

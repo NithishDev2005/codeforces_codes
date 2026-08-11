@@ -1,13 +1,13 @@
 {
-  "totalSolved": 24,
+  "totalSolved": 25,
   "currentStreak": 9,
   "maxStreak": 9,
   "lastSyncDate": "2026-08-11",
-  "todayCount": 6,
+  "todayCount": 7,
   "difficultyCounts": {
     "easy": 4,
     "medium": 9,
-    "hard": 3,
+    "hard": 4,
     "basic": 8
   },
   "syncedProblems": {
@@ -34,7 +34,8 @@
     "LeetCode_Minimum_Size_Subarray_Sum": true,
     "LeetCode_Longest_Repeating_Character_Replacement": true,
     "LeetCode_Fruit_Into_Baskets": true,
-    "LeetCode_Minimum_Absolute_Sum_Difference": true
+    "LeetCode_Minimum_Absolute_Sum_Difference": true,
+    "LeetCode_Non-negative_Integers_without_Consecutive_Ones": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -45,7 +46,7 @@
     "2026-08-08": 1,
     "2026-08-09": 1,
     "2026-08-10": 1,
-    "2026-08-11": 6
+    "2026-08-11": 7
   },
   "todayProblems": [
     "Smallest Missing Integer Greater Than Sequential Prefix Sum",
@@ -53,6 +54,7 @@
     "Minimum Size Subarray Sum",
     "Longest Repeating Character Replacement",
     "Fruit Into Baskets",
-    "Minimum Absolute Sum Difference"
+    "Minimum Absolute Sum Difference",
+    "Non-negative Integers without Consecutive Ones"
   ]
 }

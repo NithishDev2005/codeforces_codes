@@ -24,3 +24,4 @@
 | 22 | [Longest Repeating Character Replacement](./LeetCode/Medium/Longest%20Repeating%20Character%20Replacement) | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | 11 Aug 2026 | 11:12 am |
 | 23 | [Fruit Into Baskets](./LeetCode/Medium/Fruit%20Into%20Baskets) | [LeetCode](https://leetcode.com/problems/fruit-into-baskets/) | Medium | 11 Aug 2026 | 11:42 am |
 | 24 | [Minimum Absolute Sum Difference](./LeetCode/Medium/Minimum%20Absolute%20Sum%20Difference) | [LeetCode](https://leetcode.com/problems/minimum-absolute-sum-difference/) | Medium | 11 Aug 2026 | 09:21 pm |
+| 25 | [Non-negative Integers without Consecutive Ones](./LeetCode/Hard/Non-negative%20Integers%20without%20Consecutive%20Ones) | [LeetCode](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | Hard | 11 Aug 2026 | 10:15 pm |

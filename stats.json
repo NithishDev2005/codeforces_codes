@@ -1,12 +1,12 @@
 {
-  "totalSolved": 21,
+  "totalSolved": 22,
   "currentStreak": 9,
   "maxStreak": 9,
   "lastSyncDate": "2026-08-11",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 4,
-    "medium": 6,
+    "medium": 7,
     "hard": 3,
     "basic": 8
   },
@@ -31,7 +31,8 @@
     "LeetCode_Stone_Game_IV": true,
     "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true,
     "LeetCode_Minimum_Window_Substring": true,
-    "LeetCode_Minimum_Size_Subarray_Sum": true
+    "LeetCode_Minimum_Size_Subarray_Sum": true,
+    "LeetCode_Longest_Repeating_Character_Replacement": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -42,11 +43,12 @@
     "2026-08-08": 1,
     "2026-08-09": 1,
     "2026-08-10": 1,
-    "2026-08-11": 3
+    "2026-08-11": 4
   },
   "todayProblems": [
     "Smallest Missing Integer Greater Than Sequential Prefix Sum",
     "Minimum Window Substring",
-    "Minimum Size Subarray Sum"
+    "Minimum Size Subarray Sum",
+    "Longest Repeating Character Replacement"
   ]
 }

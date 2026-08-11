@@ -1,11 +1,11 @@
 {
-  "totalSolved": 18,
-  "currentStreak": 8,
-  "maxStreak": 8,
-  "lastSyncDate": "2026-08-10",
+  "totalSolved": 19,
+  "currentStreak": 9,
+  "maxStreak": 9,
+  "lastSyncDate": "2026-08-11",
   "todayCount": 1,
   "difficultyCounts": {
-    "easy": 3,
+    "easy": 4,
     "medium": 5,
     "hard": 2,
     "basic": 8
@@ -28,7 +28,8 @@
     "LeetCode_Best_Time_to_Buy_and_Sell_Stock": true,
     "LeetCode_Find_the_Lexicographically_Smallest_Valid_Sequence": true,
     "LeetCode_Stone_Game_II": true,
-    "LeetCode_Stone_Game_IV": true
+    "LeetCode_Stone_Game_IV": true,
+    "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -38,9 +39,10 @@
     "2026-08-07": 3,
     "2026-08-08": 1,
     "2026-08-09": 1,
-    "2026-08-10": 1
+    "2026-08-10": 1,
+    "2026-08-11": 1
   },
   "todayProblems": [
-    "Stone Game IV"
+    "Smallest Missing Integer Greater Than Sequential Prefix Sum"
   ]
 }

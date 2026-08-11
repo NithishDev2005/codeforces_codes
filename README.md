@@ -19,3 +19,4 @@
 | 17 | [Stone Game II](./LeetCode/Medium/Stone%20Game%20II) | [LeetCode](https://leetcode.com/problems/stone-game-ii/) | Medium | 09 Aug 2026 | 09:11 pm |
 | 18 | [Stone Game IV](./LeetCode/Hard/Stone%20Game%20IV) | [LeetCode](https://leetcode.com/problems/stone-game-iv/) | Hard | 10 Aug 2026 | 07:18 pm |
 | 19 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](./LeetCode/Easy/Smallest%20Missing%20Integer%20Greater%20Than%20Sequential%20Prefix%20Sum) | [LeetCode](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | 11 Aug 2026 | 09:18 am |
+| 20 | [Minimum Window Substring](./LeetCode/Hard/Minimum%20Window%20Substring) | [LeetCode](https://leetcode.com/problems/minimum-window-substring/) | Hard | 11 Aug 2026 | 10:19 am |

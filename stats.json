@@ -1,13 +1,13 @@
 {
-  "totalSolved": 19,
+  "totalSolved": 20,
   "currentStreak": 9,
   "maxStreak": 9,
   "lastSyncDate": "2026-08-11",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 4,
     "medium": 5,
-    "hard": 2,
+    "hard": 3,
     "basic": 8
   },
   "syncedProblems": {
@@ -29,7 +29,8 @@
     "LeetCode_Find_the_Lexicographically_Smallest_Valid_Sequence": true,
     "LeetCode_Stone_Game_II": true,
     "LeetCode_Stone_Game_IV": true,
-    "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true
+    "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true,
+    "LeetCode_Minimum_Window_Substring": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -40,9 +41,10 @@
     "2026-08-08": 1,
     "2026-08-09": 1,
     "2026-08-10": 1,
-    "2026-08-11": 1
+    "2026-08-11": 2
   },
   "todayProblems": [
-    "Smallest Missing Integer Greater Than Sequential Prefix Sum"
+    "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+    "Minimum Window Substring"
   ]
 }

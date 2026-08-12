@@ -32,3 +32,4 @@
 | 30 | [Ways to Split Array Into Good Subarrays](./LeetCode/Medium/Ways%20to%20Split%20Array%20Into%20Good%20Subarrays) | [LeetCode](https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/) | Medium | 12 Aug 2026 | 07:48 am |
 | 31 | [Maximize Total Cost of Alternating Subarrays](./LeetCode/Medium/Maximize%20Total%20Cost%20of%20Alternating%20Subarrays) | [LeetCode](https://leetcode.com/problems/maximize-total-cost-of-alternating-subarrays/) | Medium | 12 Aug 2026 | 07:53 am |
 | 32 | [Minimum Cost to Split an Array](./LeetCode/Hard/Minimum%20Cost%20to%20Split%20an%20Array) | [LeetCode](https://leetcode.com/problems/minimum-cost-to-split-an-array/) | Hard | 12 Aug 2026 | 08:00 am |
+| 33 | [Minimum Partition Score](./LeetCode/Hard/Minimum%20Partition%20Score) | [LeetCode](https://leetcode.com/problems/minimum-partition-score/) | Hard | 12 Aug 2026 | 08:07 am |

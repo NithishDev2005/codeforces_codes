@@ -27,3 +27,4 @@
 | 25 | [Non-negative Integers without Consecutive Ones](./LeetCode/Hard/Non-negative%20Integers%20without%20Consecutive%20Ones) | [LeetCode](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | Hard | 11 Aug 2026 | 10:15 pm |
 | 26 | [Split Array Largest Sum](./LeetCode/Hard/Split%20Array%20Largest%20Sum) | [LeetCode](https://leetcode.com/problems/split-array-largest-sum/) | Hard | 11 Aug 2026 | 10:51 pm |
 | 27 | [Length of Longest Subarray With at Most K Frequency](./LeetCode/Medium/Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency) | [LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | Medium | 12 Aug 2026 | 07:42 am |
+| 28 | [Minimum Absolute Difference Queries](./LeetCode/Medium/Minimum%20Absolute%20Difference%20Queries) | [LeetCode](https://leetcode.com/problems/minimum-absolute-difference-queries/) | Medium | 12 Aug 2026 | 07:47 am |

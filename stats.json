@@ -1,13 +1,13 @@
 {
-  "totalSolved": 31,
+  "totalSolved": 32,
   "currentStreak": 10,
   "maxStreak": 10,
   "lastSyncDate": "2026-08-12",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 5,
     "medium": 13,
-    "hard": 5,
+    "hard": 6,
     "basic": 8
   },
   "syncedProblems": {
@@ -41,7 +41,8 @@
     "LeetCode_Minimum_Absolute_Difference_Queries": true,
     "LeetCode_Check_if_Binary_String_Has_at_Most_One_Segment_of_Ones": true,
     "LeetCode_Ways_to_Split_Array_Into_Good_Subarrays": true,
-    "LeetCode_Maximize_Total_Cost_of_Alternating_Subarrays": true
+    "LeetCode_Maximize_Total_Cost_of_Alternating_Subarrays": true,
+    "LeetCode_Minimum_Cost_to_Split_an_Array": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -53,13 +54,14 @@
     "2026-08-09": 1,
     "2026-08-10": 1,
     "2026-08-11": 8,
-    "2026-08-12": 5
+    "2026-08-12": 6
   },
   "todayProblems": [
     "Length of Longest Subarray With at Most K Frequency",
     "Minimum Absolute Difference Queries",
     "Check if Binary String Has at Most One Segment of Ones",
     "Ways to Split Array Into Good Subarrays",
-    "Maximize Total Cost of Alternating Subarrays"
+    "Maximize Total Cost of Alternating Subarrays",
+    "Minimum Cost to Split an Array"
   ]
 }

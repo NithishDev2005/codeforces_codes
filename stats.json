@@ -1,11 +1,11 @@
 {
-  "totalSolved": 34,
-  "currentStreak": 11,
-  "maxStreak": 11,
-  "lastSyncDate": "2026-08-13",
+  "totalSolved": 35,
+  "currentStreak": 12,
+  "maxStreak": 12,
+  "lastSyncDate": "2026-08-14",
   "todayCount": 1,
   "difficultyCounts": {
-    "easy": 5,
+    "easy": 6,
     "medium": 13,
     "hard": 8,
     "basic": 8
@@ -44,7 +44,8 @@
     "LeetCode_Maximize_Total_Cost_of_Alternating_Subarrays": true,
     "LeetCode_Minimum_Cost_to_Split_an_Array": true,
     "LeetCode_Minimum_Partition_Score": true,
-    "LeetCode_Longest_Substring_of_One_Repeating_Character": true
+    "LeetCode_Longest_Substring_of_One_Repeating_Character": true,
+    "LeetCode_Maximum_Length_Substring_With_Two_Occurrences": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -57,9 +58,10 @@
     "2026-08-10": 1,
     "2026-08-11": 8,
     "2026-08-12": 7,
-    "2026-08-13": 1
+    "2026-08-13": 1,
+    "2026-08-14": 1
   },
   "todayProblems": [
-    "Longest Substring of One Repeating Character"
+    "Maximum Length Substring With Two Occurrences"
   ]
 }

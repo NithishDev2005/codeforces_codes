@@ -36,3 +36,4 @@
 | 34 | [Longest Substring of One Repeating Character](./LeetCode/Hard/Longest%20Substring%20of%20One%20Repeating%20Character) | [LeetCode](https://leetcode.com/problems/longest-substring-of-one-repeating-character/) | Hard | 13 Aug 2026 | 08:42 am |
 | 35 | [Maximum Length Substring With Two Occurrences](./LeetCode/Easy/Maximum%20Length%20Substring%20With%20Two%20Occurrences) | [LeetCode](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | Easy | 14 Aug 2026 | 09:15 am |
 | 36 | [Stone Game IX](./LeetCode/Medium/Stone%20Game%20IX) | [LeetCode](https://leetcode.com/problems/stone-game-ix/) | Medium | 16 Aug 2026 | 11:55 am |
+| 37 | [Stone Game V](./LeetCode/Hard/Stone%20Game%20V) | [LeetCode](https://leetcode.com/problems/stone-game-v/) | Hard | 17 Aug 2026 | 08:27 am |

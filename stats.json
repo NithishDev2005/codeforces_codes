@@ -1,13 +1,13 @@
 {
-  "totalSolved": 36,
-  "currentStreak": 1,
+  "totalSolved": 37,
+  "currentStreak": 2,
   "maxStreak": 12,
-  "lastSyncDate": "2026-08-16",
+  "lastSyncDate": "2026-08-17",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 6,
     "medium": 14,
-    "hard": 8,
+    "hard": 9,
     "basic": 8
   },
   "syncedProblems": {
@@ -46,7 +46,8 @@
     "LeetCode_Minimum_Partition_Score": true,
     "LeetCode_Longest_Substring_of_One_Repeating_Character": true,
     "LeetCode_Maximum_Length_Substring_With_Two_Occurrences": true,
-    "LeetCode_Stone_Game_IX": true
+    "LeetCode_Stone_Game_IX": true,
+    "LeetCode_Stone_Game_V": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -61,9 +62,10 @@
     "2026-08-12": 7,
     "2026-08-13": 1,
     "2026-08-14": 1,
-    "2026-08-16": 1
+    "2026-08-16": 1,
+    "2026-08-17": 1
   },
   "todayProblems": [
-    "Stone Game IX"
+    "Stone Game V"
   ]
 }

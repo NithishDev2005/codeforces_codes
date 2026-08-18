@@ -1,11 +1,11 @@
 {
-  "totalSolved": 37,
-  "currentStreak": 2,
+  "totalSolved": 38,
+  "currentStreak": 3,
   "maxStreak": 12,
-  "lastSyncDate": "2026-08-17",
+  "lastSyncDate": "2026-08-18",
   "todayCount": 1,
   "difficultyCounts": {
-    "easy": 6,
+    "easy": 7,
     "medium": 14,
     "hard": 9,
     "basic": 8
@@ -47,7 +47,8 @@
     "LeetCode_Longest_Substring_of_One_Repeating_Character": true,
     "LeetCode_Maximum_Length_Substring_With_Two_Occurrences": true,
     "LeetCode_Stone_Game_IX": true,
-    "LeetCode_Stone_Game_V": true
+    "LeetCode_Stone_Game_V": true,
+    "LeetCode_Find_the_Largest_Almost_Missing_Integer": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -63,9 +64,10 @@
     "2026-08-13": 1,
     "2026-08-14": 1,
     "2026-08-16": 1,
-    "2026-08-17": 1
+    "2026-08-17": 1,
+    "2026-08-18": 1
   },
   "todayProblems": [
-    "Stone Game V"
+    "Find the Largest Almost Missing Integer"
   ]
 }

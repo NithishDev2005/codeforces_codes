@@ -40,3 +40,4 @@
 | 38 | [Find the Largest Almost Missing Integer](./LeetCode/Easy/Find%20the%20Largest%20Almost%20Missing%20Integer) | [LeetCode](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | Easy | 18 Aug 2026 | 03:25 pm |
 | 39 | [Combine Two Tables](./LeetCode/Easy/Combine%20Two%20Tables) | [LeetCode](https://leetcode.com/problems/combine-two-tables/) | Easy | 18 Aug 2026 | 09:59 pm |
 | 40 | [Second Highest Salary](./LeetCode/Medium/Second%20Highest%20Salary) | [LeetCode](https://leetcode.com/problems/second-highest-salary/) | Medium | 18 Aug 2026 | 10:04 pm |
+| 41 | [Cinema Seat Allocation](./LeetCode/Medium/Cinema%20Seat%20Allocation) | [LeetCode](https://leetcode.com/problems/cinema-seat-allocation/) | Medium | 19 Aug 2026 | 08:35 am |

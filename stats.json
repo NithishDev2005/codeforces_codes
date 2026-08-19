@@ -1,12 +1,12 @@
 {
-  "totalSolved": 40,
-  "currentStreak": 3,
+  "totalSolved": 41,
+  "currentStreak": 4,
   "maxStreak": 12,
-  "lastSyncDate": "2026-08-18",
-  "todayCount": 3,
+  "lastSyncDate": "2026-08-19",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 8,
-    "medium": 15,
+    "medium": 16,
     "hard": 9,
     "basic": 8
   },
@@ -50,7 +50,8 @@
     "LeetCode_Stone_Game_V": true,
     "LeetCode_Find_the_Largest_Almost_Missing_Integer": true,
     "LeetCode_Combine_Two_Tables": true,
-    "LeetCode_Second_Highest_Salary": true
+    "LeetCode_Second_Highest_Salary": true,
+    "LeetCode_Cinema_Seat_Allocation": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -67,11 +68,10 @@
     "2026-08-14": 1,
     "2026-08-16": 1,
     "2026-08-17": 1,
-    "2026-08-18": 3
+    "2026-08-18": 3,
+    "2026-08-19": 1
   },
   "todayProblems": [
-    "Find the Largest Almost Missing Integer",
-    "Combine Two Tables",
-    "Second Highest Salary"
+    "Cinema Seat Allocation"
   ]
 }

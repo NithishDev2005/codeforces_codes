@@ -1,11 +1,11 @@
 {
-  "totalSolved": 42,
-  "currentStreak": 4,
+  "totalSolved": 43,
+  "currentStreak": 5,
   "maxStreak": 12,
-  "lastSyncDate": "2026-08-19",
-  "todayCount": 2,
+  "lastSyncDate": "2026-08-20",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 8,
+    "easy": 9,
     "medium": 17,
     "hard": 9,
     "basic": 8
@@ -52,7 +52,8 @@
     "LeetCode_Combine_Two_Tables": true,
     "LeetCode_Second_Highest_Salary": true,
     "LeetCode_Cinema_Seat_Allocation": true,
-    "LeetCode_Nth_Highest_Salary": true
+    "LeetCode_Nth_Highest_Salary": true,
+    "LeetCode_Distribute_Elements_Into_Two_Arrays_I": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -70,10 +71,10 @@
     "2026-08-16": 1,
     "2026-08-17": 1,
     "2026-08-18": 3,
-    "2026-08-19": 2
+    "2026-08-19": 2,
+    "2026-08-20": 1
   },
   "todayProblems": [
-    "Cinema Seat Allocation",
-    "Nth Highest Salary"
+    "Distribute Elements Into Two Arrays I"
   ]
 }

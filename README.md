@@ -42,3 +42,4 @@
 | 40 | [Second Highest Salary](./LeetCode/Medium/Second%20Highest%20Salary) | [LeetCode](https://leetcode.com/problems/second-highest-salary/) | Medium | 18 Aug 2026 | 10:04 pm |
 | 41 | [Cinema Seat Allocation](./LeetCode/Medium/Cinema%20Seat%20Allocation) | [LeetCode](https://leetcode.com/problems/cinema-seat-allocation/) | Medium | 19 Aug 2026 | 08:35 am |
 | 42 | [Nth Highest Salary](./LeetCode/Medium/Nth%20Highest%20Salary) | [LeetCode](https://leetcode.com/problems/nth-highest-salary/) | Medium | 19 Aug 2026 | 11:21 am |
+| 43 | [Distribute Elements Into Two Arrays I](./LeetCode/Easy/Distribute%20Elements%20Into%20Two%20Arrays%20I) | [LeetCode](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | Easy | 20 Aug 2026 | 07:36 am |

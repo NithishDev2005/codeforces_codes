@@ -1,13 +1,13 @@
 {
-  "totalSolved": 43,
-  "currentStreak": 5,
+  "totalSolved": 44,
+  "currentStreak": 6,
   "maxStreak": 12,
-  "lastSyncDate": "2026-08-20",
+  "lastSyncDate": "2026-08-21",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 9,
     "medium": 17,
-    "hard": 9,
+    "hard": 10,
     "basic": 8
   },
   "syncedProblems": {
@@ -53,7 +53,8 @@
     "LeetCode_Second_Highest_Salary": true,
     "LeetCode_Cinema_Seat_Allocation": true,
     "LeetCode_Nth_Highest_Salary": true,
-    "LeetCode_Distribute_Elements_Into_Two_Arrays_I": true
+    "LeetCode_Distribute_Elements_Into_Two_Arrays_I": true,
+    "LeetCode_Kth_Smallest_Amount_With_Single_Denomination_Combination": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -72,9 +73,10 @@
     "2026-08-17": 1,
     "2026-08-18": 3,
     "2026-08-19": 2,
-    "2026-08-20": 1
+    "2026-08-20": 1,
+    "2026-08-21": 1
   },
   "todayProblems": [
-    "Distribute Elements Into Two Arrays I"
+    "Kth Smallest Amount With Single Denomination Combination"
   ]
 }

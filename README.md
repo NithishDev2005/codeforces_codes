@@ -44,3 +44,4 @@
 | 42 | [Nth Highest Salary](./LeetCode/Medium/Nth%20Highest%20Salary) | [LeetCode](https://leetcode.com/problems/nth-highest-salary/) | Medium | 19 Aug 2026 | 11:21 am |
 | 43 | [Distribute Elements Into Two Arrays I](./LeetCode/Easy/Distribute%20Elements%20Into%20Two%20Arrays%20I) | [LeetCode](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | Easy | 20 Aug 2026 | 07:36 am |
 | 44 | [Kth Smallest Amount With Single Denomination Combination](./LeetCode/Hard/Kth%20Smallest%20Amount%20With%20Single%20Denomination%20Combination) | [LeetCode](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | Hard | 21 Aug 2026 | 06:01 am |
+| 45 | [Check Divisibility by Digit Sum and Product](./LeetCode/Easy/Check%20Divisibility%20by%20Digit%20Sum%20and%20Product) | [LeetCode](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | Easy | 22 Aug 2026 | 06:58 am |

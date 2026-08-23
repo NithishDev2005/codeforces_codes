@@ -1,11 +1,11 @@
 {
-  "totalSolved": 45,
-  "currentStreak": 7,
+  "totalSolved": 46,
+  "currentStreak": 8,
   "maxStreak": 12,
-  "lastSyncDate": "2026-08-22",
+  "lastSyncDate": "2026-08-23",
   "todayCount": 1,
   "difficultyCounts": {
-    "easy": 10,
+    "easy": 11,
     "medium": 17,
     "hard": 10,
     "basic": 8
@@ -55,7 +55,8 @@
     "LeetCode_Nth_Highest_Salary": true,
     "LeetCode_Distribute_Elements_Into_Two_Arrays_I": true,
     "LeetCode_Kth_Smallest_Amount_With_Single_Denomination_Combination": true,
-    "LeetCode_Check_Divisibility_by_Digit_Sum_and_Product": true
+    "LeetCode_Check_Divisibility_by_Digit_Sum_and_Product": true,
+    "LeetCode_Range_Sum_Query_-_Immutable": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -76,9 +77,10 @@
     "2026-08-19": 2,
     "2026-08-20": 1,
     "2026-08-21": 1,
-    "2026-08-22": 1
+    "2026-08-22": 1,
+    "2026-08-23": 1
   },
   "todayProblems": [
-    "Check Divisibility by Digit Sum and Product"
+    "Range Sum Query - Immutable"
   ]
 }

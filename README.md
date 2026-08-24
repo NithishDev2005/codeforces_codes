@@ -48,3 +48,4 @@
 | 46 | [Range Sum Query - Immutable](./LeetCode/Easy/Range%20Sum%20Query%20-%20Immutable) | [LeetCode](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | 23 Aug 2026 | 07:48 am |
 | 47 | [Stone Game VIII](./LeetCode/Hard/Stone%20Game%20VIII) | [LeetCode](https://leetcode.com/problems/stone-game-viii/) | Hard | 24 Aug 2026 | 10:08 am |
 | 48 | [Combination Sum](./LeetCode/Medium/Combination%20Sum) | [LeetCode](https://leetcode.com/problems/combination-sum/) | Medium | 24 Aug 2026 | 10:43 pm |
+| 49 | [Group Anagrams](./LeetCode/Medium/Group%20Anagrams) | [LeetCode](https://leetcode.com/problems/group-anagrams/) | Medium | 24 Aug 2026 | 10:54 pm |

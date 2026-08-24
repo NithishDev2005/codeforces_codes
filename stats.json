@@ -1,12 +1,12 @@
 {
-  "totalSolved": 48,
+  "totalSolved": 49,
   "currentStreak": 9,
   "maxStreak": 12,
   "lastSyncDate": "2026-08-24",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 11,
-    "medium": 18,
+    "medium": 19,
     "hard": 11,
     "basic": 8
   },
@@ -58,7 +58,8 @@
     "LeetCode_Check_Divisibility_by_Digit_Sum_and_Product": true,
     "LeetCode_Range_Sum_Query_-_Immutable": true,
     "LeetCode_Stone_Game_VIII": true,
-    "LeetCode_Combination_Sum": true
+    "LeetCode_Combination_Sum": true,
+    "LeetCode_Group_Anagrams": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -81,10 +82,11 @@
     "2026-08-21": 1,
     "2026-08-22": 1,
     "2026-08-23": 1,
-    "2026-08-24": 2
+    "2026-08-24": 3
   },
   "todayProblems": [
     "Stone Game VIII",
-    "Combination Sum"
+    "Combination Sum",
+    "Group Anagrams"
   ]
 }

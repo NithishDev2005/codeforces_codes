@@ -1,12 +1,12 @@
 {
-  "totalSolved": 50,
-  "currentStreak": 10,
+  "totalSolved": 51,
+  "currentStreak": 11,
   "maxStreak": 12,
-  "lastSyncDate": "2026-08-25",
+  "lastSyncDate": "2026-08-26",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 12,
-    "medium": 19,
+    "medium": 20,
     "hard": 11,
     "basic": 8
   },
@@ -60,7 +60,8 @@
     "LeetCode_Stone_Game_VIII": true,
     "LeetCode_Combination_Sum": true,
     "LeetCode_Group_Anagrams": true,
-    "LeetCode_Smallest_Missing_Multiple_of_K": true
+    "LeetCode_Smallest_Missing_Multiple_of_K": true,
+    "LeetCode_Shortest_and_Lexicographically_Smallest_Beautiful_String": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -84,9 +85,10 @@
     "2026-08-22": 1,
     "2026-08-23": 1,
     "2026-08-24": 3,
-    "2026-08-25": 1
+    "2026-08-25": 1,
+    "2026-08-26": 1
   },
   "todayProblems": [
-    "Smallest Missing Multiple of K"
+    "Shortest and Lexicographically Smallest Beautiful String"
   ]
 }

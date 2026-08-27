@@ -51,3 +51,4 @@
 | 49 | [Group Anagrams](./LeetCode/Medium/Group%20Anagrams) | [LeetCode](https://leetcode.com/problems/group-anagrams/) | Medium | 24 Aug 2026 | 10:54 pm |
 | 50 | [Smallest Missing Multiple of K](./LeetCode/Easy/Smallest%20Missing%20Multiple%20of%20K) | [LeetCode](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | Easy | 25 Aug 2026 | 07:33 am |
 | 51 | [Shortest and Lexicographically Smallest Beautiful String](./LeetCode/Medium/Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String) | [LeetCode](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | Medium | 26 Aug 2026 | 11:33 am |
+| 52 | [Lexicographically Smallest Permutation Greater Than Target](./LeetCode/Medium/Lexicographically%20Smallest%20Permutation%20Greater%20Than%20Target) | [LeetCode](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) | Medium | 27 Aug 2026 | 09:49 am |

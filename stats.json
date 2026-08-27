@@ -1,12 +1,12 @@
 {
-  "totalSolved": 51,
-  "currentStreak": 11,
+  "totalSolved": 52,
+  "currentStreak": 12,
   "maxStreak": 12,
-  "lastSyncDate": "2026-08-26",
+  "lastSyncDate": "2026-08-27",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 12,
-    "medium": 20,
+    "medium": 21,
     "hard": 11,
     "basic": 8
   },
@@ -61,7 +61,8 @@
     "LeetCode_Combination_Sum": true,
     "LeetCode_Group_Anagrams": true,
     "LeetCode_Smallest_Missing_Multiple_of_K": true,
-    "LeetCode_Shortest_and_Lexicographically_Smallest_Beautiful_String": true
+    "LeetCode_Shortest_and_Lexicographically_Smallest_Beautiful_String": true,
+    "LeetCode_Lexicographically_Smallest_Permutation_Greater_Than_Target": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -86,9 +87,10 @@
     "2026-08-23": 1,
     "2026-08-24": 3,
     "2026-08-25": 1,
-    "2026-08-26": 1
+    "2026-08-26": 1,
+    "2026-08-27": 1
   },
   "todayProblems": [
-    "Shortest and Lexicographically Smallest Beautiful String"
+    "Lexicographically Smallest Permutation Greater Than Target"
   ]
 }

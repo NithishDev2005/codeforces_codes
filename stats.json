@@ -1,13 +1,13 @@
 {
-  "totalSolved": 52,
-  "currentStreak": 12,
-  "maxStreak": 12,
-  "lastSyncDate": "2026-08-27",
+  "totalSolved": 53,
+  "currentStreak": 13,
+  "maxStreak": 13,
+  "lastSyncDate": "2026-08-28",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 12,
     "medium": 21,
-    "hard": 11,
+    "hard": 12,
     "basic": 8
   },
   "syncedProblems": {
@@ -62,7 +62,8 @@
     "LeetCode_Group_Anagrams": true,
     "LeetCode_Smallest_Missing_Multiple_of_K": true,
     "LeetCode_Shortest_and_Lexicographically_Smallest_Beautiful_String": true,
-    "LeetCode_Lexicographically_Smallest_Permutation_Greater_Than_Target": true
+    "LeetCode_Lexicographically_Smallest_Permutation_Greater_Than_Target": true,
+    "LeetCode_Lexicographically_Smallest_Palindromic_Permutation_Greater_Than_Target": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -88,9 +89,10 @@
     "2026-08-24": 3,
     "2026-08-25": 1,
     "2026-08-26": 1,
-    "2026-08-27": 1
+    "2026-08-27": 1,
+    "2026-08-28": 1
   },
   "todayProblems": [
-    "Lexicographically Smallest Permutation Greater Than Target"
+    "Lexicographically Smallest Palindromic Permutation Greater Than Target"
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 53,
-  "currentStreak": 13,
-  "maxStreak": 13,
-  "lastSyncDate": "2026-08-28",
+  "totalSolved": 54,
+  "currentStreak": 14,
+  "maxStreak": 14,
+  "lastSyncDate": "2026-08-29",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 12,
-    "medium": 21,
+    "medium": 22,
     "hard": 12,
     "basic": 8
   },
@@ -63,7 +63,8 @@
     "LeetCode_Smallest_Missing_Multiple_of_K": true,
     "LeetCode_Shortest_and_Lexicographically_Smallest_Beautiful_String": true,
     "LeetCode_Lexicographically_Smallest_Permutation_Greater_Than_Target": true,
-    "LeetCode_Lexicographically_Smallest_Palindromic_Permutation_Greater_Than_Target": true
+    "LeetCode_Lexicographically_Smallest_Palindromic_Permutation_Greater_Than_Target": true,
+    "LeetCode_Make_Lexicographically_Smallest_Array_by_Swapping_Elements": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -90,9 +91,10 @@
     "2026-08-25": 1,
     "2026-08-26": 1,
     "2026-08-27": 1,
-    "2026-08-28": 1
+    "2026-08-28": 1,
+    "2026-08-29": 1
   },
   "todayProblems": [
-    "Lexicographically Smallest Palindromic Permutation Greater Than Target"
+    "Make Lexicographically Smallest Array by Swapping Elements"
   ]
 }

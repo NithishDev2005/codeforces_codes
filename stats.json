@@ -1,12 +1,12 @@
 {
-  "totalSolved": 54,
-  "currentStreak": 14,
-  "maxStreak": 14,
-  "lastSyncDate": "2026-08-29",
+  "totalSolved": 55,
+  "currentStreak": 15,
+  "maxStreak": 15,
+  "lastSyncDate": "2026-08-30",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 12,
-    "medium": 22,
+    "medium": 23,
     "hard": 12,
     "basic": 8
   },
@@ -64,7 +64,8 @@
     "LeetCode_Shortest_and_Lexicographically_Smallest_Beautiful_String": true,
     "LeetCode_Lexicographically_Smallest_Permutation_Greater_Than_Target": true,
     "LeetCode_Lexicographically_Smallest_Palindromic_Permutation_Greater_Than_Target": true,
-    "LeetCode_Make_Lexicographically_Smallest_Array_by_Swapping_Elements": true
+    "LeetCode_Make_Lexicographically_Smallest_Array_by_Swapping_Elements": true,
+    "LeetCode_Removing_Minimum_and_Maximum_From_Array": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -92,9 +93,10 @@
     "2026-08-26": 1,
     "2026-08-27": 1,
     "2026-08-28": 1,
-    "2026-08-29": 1
+    "2026-08-29": 1,
+    "2026-08-30": 1
   },
   "todayProblems": [
-    "Make Lexicographically Smallest Array by Swapping Elements"
+    "Removing Minimum and Maximum From Array"
   ]
 }

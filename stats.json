@@ -1,12 +1,12 @@
 {
-  "totalSolved": 55,
-  "currentStreak": 15,
-  "maxStreak": 15,
-  "lastSyncDate": "2026-08-30",
+  "totalSolved": 56,
+  "currentStreak": 16,
+  "maxStreak": 16,
+  "lastSyncDate": "2026-08-31",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 12,
-    "medium": 23,
+    "medium": 24,
     "hard": 12,
     "basic": 8
   },
@@ -65,7 +65,8 @@
     "LeetCode_Lexicographically_Smallest_Permutation_Greater_Than_Target": true,
     "LeetCode_Lexicographically_Smallest_Palindromic_Permutation_Greater_Than_Target": true,
     "LeetCode_Make_Lexicographically_Smallest_Array_by_Swapping_Elements": true,
-    "LeetCode_Removing_Minimum_and_Maximum_From_Array": true
+    "LeetCode_Removing_Minimum_and_Maximum_From_Array": true,
+    "LeetCode_Find_the_Minimum_and_Maximum_Number_of_Nodes_Between_Critical_Points": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -94,9 +95,10 @@
     "2026-08-27": 1,
     "2026-08-28": 1,
     "2026-08-29": 1,
-    "2026-08-30": 1
+    "2026-08-30": 1,
+    "2026-08-31": 1
   },
   "todayProblems": [
-    "Removing Minimum and Maximum From Array"
+    "Find the Minimum and Maximum Number of Nodes Between Critical Points"
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "totalSolved": 56,
-  "currentStreak": 16,
+  "totalSolved": 57,
+  "currentStreak": 1,
   "maxStreak": 16,
-  "lastSyncDate": "2026-08-31",
+  "lastSyncDate": "2026-09-04",
   "todayCount": 1,
   "difficultyCounts": {
-    "easy": 12,
+    "easy": 13,
     "medium": 24,
     "hard": 12,
     "basic": 8
@@ -66,7 +66,8 @@
     "LeetCode_Lexicographically_Smallest_Palindromic_Permutation_Greater_Than_Target": true,
     "LeetCode_Make_Lexicographically_Smallest_Array_by_Swapping_Elements": true,
     "LeetCode_Removing_Minimum_and_Maximum_From_Array": true,
-    "LeetCode_Find_the_Minimum_and_Maximum_Number_of_Nodes_Between_Critical_Points": true
+    "LeetCode_Find_the_Minimum_and_Maximum_Number_of_Nodes_Between_Critical_Points": true,
+    "LeetCode_Smallest_Stable_Index_I": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -96,9 +97,10 @@
     "2026-08-28": 1,
     "2026-08-29": 1,
     "2026-08-30": 1,
-    "2026-08-31": 1
+    "2026-08-31": 1,
+    "2026-09-04": 1
   },
   "todayProblems": [
-    "Find the Minimum and Maximum Number of Nodes Between Critical Points"
+    "Smallest Stable Index I"
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 57,
-  "currentStreak": 1,
+  "totalSolved": 58,
+  "currentStreak": 2,
   "maxStreak": 16,
-  "lastSyncDate": "2026-09-04",
+  "lastSyncDate": "2026-09-05",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 13,
-    "medium": 24,
+    "medium": 25,
     "hard": 12,
     "basic": 8
   },
@@ -67,7 +67,8 @@
     "LeetCode_Make_Lexicographically_Smallest_Array_by_Swapping_Elements": true,
     "LeetCode_Removing_Minimum_and_Maximum_From_Array": true,
     "LeetCode_Find_the_Minimum_and_Maximum_Number_of_Nodes_Between_Critical_Points": true,
-    "LeetCode_Smallest_Stable_Index_I": true
+    "LeetCode_Smallest_Stable_Index_I": true,
+    "LeetCode_Smallest_Stable_Index_II": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -98,9 +99,10 @@
     "2026-08-29": 1,
     "2026-08-30": 1,
     "2026-08-31": 1,
-    "2026-09-04": 1
+    "2026-09-04": 1,
+    "2026-09-05": 1
   },
   "todayProblems": [
-    "Smallest Stable Index I"
+    "Smallest Stable Index II"
   ]
 }

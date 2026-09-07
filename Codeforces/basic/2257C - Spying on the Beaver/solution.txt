@@ -1,0 +1,74 @@
+import java.io.*;
+import java.util.*;
+
+public class Main{
+    static class Scanner{
+        BufferedReader br;
+        StringTokenizer st;
+        Scanner(){
+            br=new BufferedReader(new InputStreamReader(System.in));
+        }
+        String next(){
+            while(st==null||!st.hasMoreElements()){
+                try{
+                    st=new StringTokenizer(br.readLine());
+                }catch(IOException e){
+                    e.printStackTrace();
+                }
+            }
+            return st.nextToken();
+        }
+        int nextInt(){
+            return Integer.parseInt(next());
+        }
+    }
+    public static void main(String[] args){
+        Scanner sc=new Scanner();
+        int t=sc.nextInt();
+        StringBuilder out=new StringBuilder();
+        while(t-->0){
+            int n=sc.nextInt();
+            int[] p=new int[n+1];
+            for(int i=2;i<=n;i++){
+                p[i]=sc.nextInt();
+            }
+            int m=sc.nextInt();
+            boolean[] hasDam=new boolean[n+1];
+            for(int i=0;i<m;i++){
+                hasDam[sc.nextInt()]=true;
+            }
+            ArrayList<Integer>[] active=new ArrayList[n+1];
+            for(int i=1;i<=n;i++){
+                active[i]=new ArrayList<>();
+            }
+            ArrayList<Integer> cuts=new ArrayList<>();
+            for(int i=n;i>=1;i--){
+                int dp=0;
+                if(hasDam[i]){
+                    cuts.addAll(active[i]);
+                    dp=1;
+                }else{
+                    if(!active[i].isEmpty()){
+                        for(int j=0;j<active[i].size()-1;j++){
+                            cuts.add(active[i].get(j));
+                        }
+                        dp=1;
+                    }
+                }
+                if(dp==1&&i>1){
+                    active[p[i]].add(i);
+                }
+            }
+            if(cuts.size()>0){
+                out.append(cuts.size()).append(" ");
+                for(int i=0;i<cuts.size();i++){
+                    out.append(cuts.get(i)).append(" ");
+                }
+            }else{
+                out.append("0");
+            }
+            out.append("\n");
+        }
+        System.out.print(out);
+    }
+}

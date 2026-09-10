@@ -1,12 +1,12 @@
 {
-  "totalSolved": 61,
-  "currentStreak": 4,
+  "totalSolved": 62,
+  "currentStreak": 1,
   "maxStreak": 16,
-  "lastSyncDate": "2026-09-07",
-  "todayCount": 2,
+  "lastSyncDate": "2026-09-10",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 13,
-    "medium": 25,
+    "medium": 26,
     "hard": 14,
     "basic": 9
   },
@@ -71,7 +71,8 @@
     "LeetCode_Smallest_Stable_Index_II": true,
     "LeetCode_Distinct_Subsequences": true,
     "LeetCode_Distinct_Subsequences_II": true,
-    "Codeforces_2257C_-_Spying_on_the_Beaver": true
+    "Codeforces_2257C_-_Spying_on_the_Beaver": true,
+    "LeetCode_Count_Nodes_Equal_to_Average_of_Subtree": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -105,10 +106,10 @@
     "2026-09-04": 1,
     "2026-09-05": 1,
     "2026-09-06": 1,
-    "2026-09-07": 2
+    "2026-09-07": 2,
+    "2026-09-10": 1
   },
   "todayProblems": [
-    "Distinct Subsequences II",
-    "2257C - Spying on the Beaver"
+    "Count Nodes Equal to Average of Subtree"
   ]
 }

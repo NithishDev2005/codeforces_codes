@@ -61,3 +61,4 @@
 | 59 | [Distinct Subsequences](./LeetCode/Hard/Distinct%20Subsequences) | [LeetCode](https://leetcode.com/problems/distinct-subsequences/) | Hard | 06 Sept 2026 | 11:32 am |
 | 60 | [Distinct Subsequences II](./LeetCode/Hard/Distinct%20Subsequences%20II) | [LeetCode](https://leetcode.com/problems/distinct-subsequences-ii/) | Hard | 07 Sept 2026 | 12:12 pm |
 | 61 | [2257C - Spying on the Beaver](./Codeforces/basic/2257C%20-%20Spying%20on%20the%20Beaver) | [Codeforces](https://codeforces.com/problemset/problem/2257/C) | basic | 07 Sept 2026 | 11:21 pm |
+| 62 | [Count Nodes Equal to Average of Subtree](./LeetCode/Medium/Count%20Nodes%20Equal%20to%20Average%20of%20Subtree) | [LeetCode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | Medium | 10 Sept 2026 | 08:22 am |

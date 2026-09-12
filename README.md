@@ -63,3 +63,4 @@
 | 61 | [2257C - Spying on the Beaver](./Codeforces/basic/2257C%20-%20Spying%20on%20the%20Beaver) | [Codeforces](https://codeforces.com/problemset/problem/2257/C) | basic | 07 Sept 2026 | 11:21 pm |
 | 62 | [Count Nodes Equal to Average of Subtree](./LeetCode/Medium/Count%20Nodes%20Equal%20to%20Average%20of%20Subtree) | [LeetCode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | Medium | 10 Sept 2026 | 08:22 am |
 | 63 | [Unique 3-Digit Even Numbers](./LeetCode/Easy/Unique%203-Digit%20Even%20Numbers) | [LeetCode](https://leetcode.com/problems/unique-3-digit-even-numbers/) | Easy | 11 Sept 2026 | 02:21 pm |
+| 64 | [Maximum Score of Non-overlapping Intervals](./LeetCode/Hard/Maximum%20Score%20of%20Non-overlapping%20Intervals) | [LeetCode](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/) | Hard | 12 Sept 2026 | 08:15 am |

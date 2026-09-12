@@ -1,13 +1,13 @@
 {
-  "totalSolved": 63,
-  "currentStreak": 2,
+  "totalSolved": 64,
+  "currentStreak": 3,
   "maxStreak": 16,
-  "lastSyncDate": "2026-09-11",
+  "lastSyncDate": "2026-09-12",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 14,
     "medium": 26,
-    "hard": 14,
+    "hard": 15,
     "basic": 9
   },
   "syncedProblems": {
@@ -73,7 +73,8 @@
     "LeetCode_Distinct_Subsequences_II": true,
     "Codeforces_2257C_-_Spying_on_the_Beaver": true,
     "LeetCode_Count_Nodes_Equal_to_Average_of_Subtree": true,
-    "LeetCode_Unique_3-Digit_Even_Numbers": true
+    "LeetCode_Unique_3-Digit_Even_Numbers": true,
+    "LeetCode_Maximum_Score_of_Non-overlapping_Intervals": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -109,9 +110,10 @@
     "2026-09-06": 1,
     "2026-09-07": 2,
     "2026-09-10": 1,
-    "2026-09-11": 1
+    "2026-09-11": 1,
+    "2026-09-12": 1
   },
   "todayProblems": [
-    "Unique 3-Digit Even Numbers"
+    "Maximum Score of Non-overlapping Intervals"
   ]
 }

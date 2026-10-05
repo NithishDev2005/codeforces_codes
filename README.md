@@ -66,3 +66,4 @@
 | 64 | [Maximum Score of Non-overlapping Intervals](./LeetCode/Hard/Maximum%20Score%20of%20Non-overlapping%20Intervals) | [LeetCode](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/) | Hard | 12 Sept 2026 | 08:15 am |
 | 65 | [Number of Sets of K Non-Overlapping Line Segments](./LeetCode/Medium/Number%20of%20Sets%20of%20K%20Non-Overlapping%20Line%20Segments) | [LeetCode](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/) | Medium | 16 Sept 2026 | 10:05 am |
 | 66 | [Score of Parentheses](./LeetCode/Medium/Score%20of%20Parentheses) | [LeetCode](https://leetcode.com/problems/score-of-parentheses/) | Medium | 05 Oct 2026 | 08:12 am |
+| 67 | [1903A - Halloumi Boxes](./Codeforces/basic/1903A%20-%20Halloumi%20Boxes) | [Codeforces](https://codeforces.com/problemset/problem/1903/A) | basic | 05 Oct 2026 | 08:24 am |

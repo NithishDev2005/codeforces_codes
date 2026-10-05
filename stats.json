@@ -1,14 +1,14 @@
 {
-  "totalSolved": 67,
+  "totalSolved": 68,
   "currentStreak": 1,
   "maxStreak": 16,
   "lastSyncDate": "2026-10-05",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 14,
     "medium": 28,
     "hard": 15,
-    "basic": 10
+    "basic": 11
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
@@ -77,7 +77,8 @@
     "LeetCode_Maximum_Score_of_Non-overlapping_Intervals": true,
     "LeetCode_Number_of_Sets_of_K_Non-Overlapping_Line_Segments": true,
     "LeetCode_Score_of_Parentheses": true,
-    "Codeforces_1903A_-_Halloumi_Boxes": true
+    "Codeforces_1903A_-_Halloumi_Boxes": true,
+    "Codeforces_1901A_-_Line_Trip": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -116,10 +117,11 @@
     "2026-09-11": 1,
     "2026-09-12": 1,
     "2026-09-16": 1,
-    "2026-10-05": 2
+    "2026-10-05": 3
   },
   "todayProblems": [
     "Score of Parentheses",
-    "1903A - Halloumi Boxes"
+    "1903A - Halloumi Boxes",
+    "1901A - Line Trip"
   ]
 }

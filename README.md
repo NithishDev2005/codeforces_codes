@@ -68,3 +68,4 @@
 | 66 | [Score of Parentheses](./LeetCode/Medium/Score%20of%20Parentheses) | [LeetCode](https://leetcode.com/problems/score-of-parentheses/) | Medium | 05 Oct 2026 | 08:12 am |
 | 67 | [1903A - Halloumi Boxes](./Codeforces/basic/1903A%20-%20Halloumi%20Boxes) | [Codeforces](https://codeforces.com/problemset/problem/1903/A) | basic | 05 Oct 2026 | 08:24 am |
 | 68 | [1901A - Line Trip](./Codeforces/basic/1901A%20-%20Line%20Trip) | [Codeforces](https://codeforces.com/problemset/problem/1901/A) | basic | 05 Oct 2026 | 08:29 am |
+| 69 | [Minimum Add to Make Parentheses Valid](./LeetCode/Medium/Minimum%20Add%20to%20Make%20Parentheses%20Valid) | [LeetCode](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | 06 Oct 2026 | 12:12 pm |

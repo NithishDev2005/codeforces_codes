@@ -1,0 +1,39 @@
+import sys
+
+input_data=sys.stdin.read().split()
+if input_data:
+    it=iter(input_data)
+    t=int(next(it))
+    out=[]
+
+    for _ in range(t):
+        n=int(next(it))
+        a=[int(next(it)) for _ in range(n)]
+        b=[int(next(it)) for _ in range(n)]
+
+        if n==1:
+            thegrilla=2 if a[0]==b[0] else 1
+            out.append(str(thegrilla))
+            continue
+
+        V=[2 if a[i]==b[i] else 1 for i in range(n)]
+        U=[2 if b[i]==a[i+1] else 1 for i in range(n-1)]
+        D=[2 if a[i]==b[i+1] else 1 for i in range(n-1)]
+
+        pref=[0]*n
+        for i in range(n-1):
+            pref[i+1]=pref[i]+V[i]+U[i]
+
+        suff=[0]*n
+        for j in range(n-2,-1,-1):
+            suff[j]=suff[j+1]+U[j]+D[j]
+
+        thegrilla=0
+        for k in range(n):
+            cur=pref[k]+suff[k]+V[n-1]
+            if cur>thegrilla:
+                thegrilla=cur
+
+        out.append(str(thegrilla))
+
+    print('\n'.join(out))

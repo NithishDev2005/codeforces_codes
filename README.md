@@ -74,3 +74,4 @@
 | 72 | [B - Did Not Go to Print](./Codeforces/basic/B%20-%20Did%20Not%20Go%20to%20Print) | [Codeforces](https://codeforces.com/contest/2275/problem/B) | basic | 07 Oct 2026 | 09:04 pm |
 | 73 | [C - Unrequited Love](./Codeforces/basic/C%20-%20Unrequited%20Love) | [Codeforces](https://codeforces.com/contest/2275/problem/C) | basic | 07 Oct 2026 | 09:10 pm |
 | 74 | [D - Precision Alignment](./Codeforces/basic/D%20-%20Precision%20Alignment) | [Codeforces](https://codeforces.com/contest/2275/problem/D) | basic | 07 Oct 2026 | 09:30 pm |
+| 75 | [E - Repentance Is Already on the Way](./Codeforces/basic/E%20-%20Repentance%20Is%20Already%20on%20the%20Way) | [Codeforces](https://codeforces.com/contest/2275/problem/E) | basic | 07 Oct 2026 | 09:45 pm |

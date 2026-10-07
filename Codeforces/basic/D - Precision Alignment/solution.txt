@@ -1,0 +1,126 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    static class FastScanner {
+        private final InputStream in = System.in;
+        private final byte[] buffer = new byte[1 << 16];
+        private int ptr = 0;
+        private int len = 0;
+
+        private int read() throws IOException {
+            if (ptr == len) {
+                ptr = 0;
+                len = in.read(buffer);
+                if (len <= 0) return -1;
+            }
+            return buffer[ptr++];
+        }
+
+        public long nextLong() throws IOException {
+            int c = read();
+            while (c <= ' ') {
+                if (c == -1) return Long.MIN_VALUE;
+                c = read();
+            }
+            boolean neg = false;
+            if (c == '-') {
+                neg = true;
+                c = read();
+            }
+            long res = 0;
+            while (c >= '0' && c <= '9') {
+                res = res * 10 + (c - '0');
+                c = read();
+            }
+            return neg ? -res : res;
+        }
+
+        public int nextInt() throws IOException {
+            return (int) nextLong();
+        }
+    }
+
+    public static void main(String[] args) throws IOException {
+        FastScanner fs = new FastScanner();
+        PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
+
+        int t = fs.nextInt();
+        while (t-- > 0) {
+            int n = fs.nextInt();
+            long k = fs.nextLong();
+
+            long[] initialSum = new long[n];
+            long[] overhead = new long[n];
+
+            long minSum = Long.MAX_VALUE;
+            long fixedCeiling = Long.MAX_VALUE;
+
+            for (int i = 0; i < n; i++) {
+                long a = fs.nextLong();
+                long b = fs.nextLong();
+                long c = fs.nextLong();
+
+                long s = a + b + c;
+                initialSum[i] = s;
+                minSum = Math.min(minSum, s);
+
+                if (a <= b && b <= c) {
+                    if (a == b && b == c) {
+                        overhead[i] = -1; // Permanently locked
+                        fixedCeiling = Math.min(fixedCeiling, s);
+                    } else if (a == b || b == c) {
+                        overhead[i] = 1;
+                    } else {
+                        overhead[i] = Math.min(b - a + 1, c - b + 1);
+                    }
+                } else {
+                    overhead[i] = 0; // Already unlocked
+                }
+            }
+
+            // Binary search range for max achievable min sum
+            long low = minSum;
+            long high = minSum + k;
+            if (fixedCeiling != Long.MAX_VALUE) {
+                high = Math.min(high, fixedCeiling);
+            }
+
+            long ans = minSum;
+            while (low <= high) {
+                long mid = low + (high - low) / 2;
+
+                if (canAchieve(mid, n, k, initialSum, overhead)) {
+                    ans = mid;
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
+
+            out.println(ans);
+        }
+
+        out.flush();
+    }
+
+    private static boolean canAchieve(long target, int n, long k, long[] initialSum, long[] overhead) {
+        long remainingK = k;
+
+        for (int i = 0; i < n; i++) {
+            if (target > initialSum[i]) {
+                if (overhead[i] == -1) {
+                    return false; // Cannot increase a permanently locked lab
+                }
+
+                long cost = (target - initialSum[i]) + 2L * overhead[i];
+                if (cost > remainingK) {
+                    return false;
+                }
+                remainingK -= cost;
+            }
+        }
+
+        return true;
+    }
+}

@@ -73,3 +73,4 @@
 | 71 | [A - In Search of Convenience](./Codeforces/basic/A%20-%20In%20Search%20of%20Convenience) | [Codeforces](https://codeforces.com/contest/2275/problem/A) | basic | 07 Oct 2026 | 09:01 pm |
 | 72 | [B - Did Not Go to Print](./Codeforces/basic/B%20-%20Did%20Not%20Go%20to%20Print) | [Codeforces](https://codeforces.com/contest/2275/problem/B) | basic | 07 Oct 2026 | 09:04 pm |
 | 73 | [C - Unrequited Love](./Codeforces/basic/C%20-%20Unrequited%20Love) | [Codeforces](https://codeforces.com/contest/2275/problem/C) | basic | 07 Oct 2026 | 09:10 pm |
+| 74 | [D - Precision Alignment](./Codeforces/basic/D%20-%20Precision%20Alignment) | [Codeforces](https://codeforces.com/contest/2275/problem/D) | basic | 07 Oct 2026 | 09:30 pm |

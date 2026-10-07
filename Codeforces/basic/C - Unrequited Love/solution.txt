@@ -1,0 +1,28 @@
+t=int(input())
+for _ in range(t):
+    n=int(input())
+    a=list(map(int, input().split()))
+    m=n - 4
+    
+    v=[a[i] + a[i + 2] - a[i + 4] for i in range(m)]
+
+    
+    counts={}
+    for val in v:
+        counts[val]=counts.get(val, 0) + 1
+
+    
+    ans=0
+    for c in counts.values():
+        ans +=c * (c - 1) // 2
+
+    
+    for i in range(m - 2):
+        if v[i]==v[i + 2]:
+            ans -=1
+
+    for i in range(m - 4):
+        if v[i]==v[i + 4]:
+            ans -=1
+
+    print(ans)

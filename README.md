@@ -72,3 +72,4 @@
 | 70 | [Remove Invalid Parentheses](./LeetCode/Hard/Remove%20Invalid%20Parentheses) | [LeetCode](https://leetcode.com/problems/remove-invalid-parentheses/) | Hard | 07 Oct 2026 | 10:56 am |
 | 71 | [A - In Search of Convenience](./Codeforces/basic/A%20-%20In%20Search%20of%20Convenience) | [Codeforces](https://codeforces.com/contest/2275/problem/A) | basic | 07 Oct 2026 | 09:01 pm |
 | 72 | [B - Did Not Go to Print](./Codeforces/basic/B%20-%20Did%20Not%20Go%20to%20Print) | [Codeforces](https://codeforces.com/contest/2275/problem/B) | basic | 07 Oct 2026 | 09:04 pm |
+| 73 | [C - Unrequited Love](./Codeforces/basic/C%20-%20Unrequited%20Love) | [Codeforces](https://codeforces.com/contest/2275/problem/C) | basic | 07 Oct 2026 | 09:10 pm |

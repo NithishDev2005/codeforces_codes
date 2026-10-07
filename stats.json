@@ -1,14 +1,14 @@
 {
-  "totalSolved": 72,
+  "totalSolved": 73,
   "currentStreak": 3,
   "maxStreak": 16,
   "lastSyncDate": "2026-10-07",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 14,
     "medium": 29,
     "hard": 16,
-    "basic": 13
+    "basic": 14
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
@@ -82,7 +82,8 @@
     "LeetCode_Minimum_Add_to_Make_Parentheses_Valid": true,
     "LeetCode_Remove_Invalid_Parentheses": true,
     "Codeforces_A_-_In_Search_of_Convenience": true,
-    "Codeforces_B_-_Did_Not_Go_to_Print": true
+    "Codeforces_B_-_Did_Not_Go_to_Print": true,
+    "Codeforces_C_-_Unrequited_Love": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -123,11 +124,12 @@
     "2026-09-16": 1,
     "2026-10-05": 3,
     "2026-10-06": 1,
-    "2026-10-07": 3
+    "2026-10-07": 4
   },
   "todayProblems": [
     "Remove Invalid Parentheses",
     "A - In Search of Convenience",
-    "B - Did Not Go to Print"
+    "B - Did Not Go to Print",
+    "C - Unrequited Love"
   ]
 }

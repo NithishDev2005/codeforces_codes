@@ -1,0 +1,44 @@
+import sys
+import random
+
+MAX=1000001
+spf=list(range(MAX))
+for i in range(2,1001):
+    if spf[i]==i:
+        for j in range(i*i,MAX,i):
+            if spf[j]==j:
+                spf[j]=i
+
+rng=random.Random(1337)
+R=[rng.getrandbits(60) if (i>1 and spf[i]==i) else 0 for i in range(MAX)]
+
+h=[0]*MAX
+for i in range(2,MAX):
+    h[i]=h[i//spf[i]]^R[spf[i]]
+
+input_data=sys.stdin.read().split()
+if input_data:
+    it=iter(input_data)
+    t=int(next(it))
+    out=[]
+
+    for _ in range(t):
+        n=int(next(it))
+        a=[int(next(it)) for _ in range(n)]
+
+        unblended=0
+
+        cntA={}
+        for x in a:
+            hx=h[x]
+            cntA[hx]=cntA.get(hx,0)+1
+
+        ans=0
+        cur=0
+        for x in a:
+            cur^=h[x]
+            ans+=cntA.get(cur,0)
+
+        out.append(str(ans))
+
+    print('\n'.join(out))

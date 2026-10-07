@@ -71,3 +71,4 @@
 | 69 | [Minimum Add to Make Parentheses Valid](./LeetCode/Medium/Minimum%20Add%20to%20Make%20Parentheses%20Valid) | [LeetCode](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | 06 Oct 2026 | 12:12 pm |
 | 70 | [Remove Invalid Parentheses](./LeetCode/Hard/Remove%20Invalid%20Parentheses) | [LeetCode](https://leetcode.com/problems/remove-invalid-parentheses/) | Hard | 07 Oct 2026 | 10:56 am |
 | 71 | [A - In Search of Convenience](./Codeforces/basic/A%20-%20In%20Search%20of%20Convenience) | [Codeforces](https://codeforces.com/contest/2275/problem/A) | basic | 07 Oct 2026 | 09:01 pm |
+| 72 | [B - Did Not Go to Print](./Codeforces/basic/B%20-%20Did%20Not%20Go%20to%20Print) | [Codeforces](https://codeforces.com/contest/2275/problem/B) | basic | 07 Oct 2026 | 09:04 pm |

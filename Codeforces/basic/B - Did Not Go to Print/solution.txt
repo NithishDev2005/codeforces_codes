@@ -1,0 +1,26 @@
+t=int(input())
+for _ in range(t):
+    n=int(input())
+    s=input()
+
+    printed=[False] * (n + 1)
+    stack=[]
+
+    for i in range(n):
+        doc=i + 1
+        cmd=s[i]
+
+        if cmd == '1':
+            stack.append(doc)
+        elif cmd == '2':
+            if stack:
+                printed[stack.pop()]=True
+            else:
+                printed[doc]=True
+        elif cmd == '3':
+            printed[doc]=True
+
+    ans=[i for i in range(1, n + 1) if not printed[i]]
+
+    print(len(ans))
+    print(*ans)

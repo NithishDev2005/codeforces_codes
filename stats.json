@@ -1,13 +1,13 @@
 {
-  "totalSolved": 69,
-  "currentStreak": 2,
+  "totalSolved": 70,
+  "currentStreak": 3,
   "maxStreak": 16,
-  "lastSyncDate": "2026-10-06",
+  "lastSyncDate": "2026-10-07",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 14,
     "medium": 29,
-    "hard": 15,
+    "hard": 16,
     "basic": 11
   },
   "syncedProblems": {
@@ -79,7 +79,8 @@
     "LeetCode_Score_of_Parentheses": true,
     "Codeforces_1903A_-_Halloumi_Boxes": true,
     "Codeforces_1901A_-_Line_Trip": true,
-    "LeetCode_Minimum_Add_to_Make_Parentheses_Valid": true
+    "LeetCode_Minimum_Add_to_Make_Parentheses_Valid": true,
+    "LeetCode_Remove_Invalid_Parentheses": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -119,9 +120,10 @@
     "2026-09-12": 1,
     "2026-09-16": 1,
     "2026-10-05": 3,
-    "2026-10-06": 1
+    "2026-10-06": 1,
+    "2026-10-07": 1
   },
   "todayProblems": [
-    "Minimum Add to Make Parentheses Valid"
+    "Remove Invalid Parentheses"
   ]
 }

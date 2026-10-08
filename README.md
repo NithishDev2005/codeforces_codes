@@ -76,3 +76,4 @@
 | 74 | [D - Precision Alignment](./Codeforces/basic/D%20-%20Precision%20Alignment) | [Codeforces](https://codeforces.com/contest/2275/problem/D) | basic | 07 Oct 2026 | 09:30 pm |
 | 75 | [E - Repentance Is Already on the Way](./Codeforces/basic/E%20-%20Repentance%20Is%20Already%20on%20the%20Way) | [Codeforces](https://codeforces.com/contest/2275/problem/E) | basic | 07 Oct 2026 | 09:45 pm |
 | 76 | [F - Tea Blend](./Codeforces/basic/F%20-%20Tea%20Blend) | [Codeforces](https://codeforces.com/contest/2275/problem/F) | basic | 07 Oct 2026 | 09:50 pm |
+| 77 | [Remove Outermost Parentheses](./LeetCode/Easy/Remove%20Outermost%20Parentheses) | [LeetCode](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | 08 Oct 2026 | 12:12 pm |

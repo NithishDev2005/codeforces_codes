@@ -1,12 +1,12 @@
 {
-  "totalSolved": 77,
-  "currentStreak": 4,
+  "totalSolved": 78,
+  "currentStreak": 5,
   "maxStreak": 16,
-  "lastSyncDate": "2026-10-08",
+  "lastSyncDate": "2026-10-09",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 15,
-    "medium": 29,
+    "medium": 30,
     "hard": 16,
     "basic": 17
   },
@@ -87,7 +87,8 @@
     "Codeforces_D_-_Precision_Alignment": true,
     "Codeforces_E_-_Repentance_Is_Already_on_the_Way": true,
     "Codeforces_F_-_Tea_Blend": true,
-    "LeetCode_Remove_Outermost_Parentheses": true
+    "LeetCode_Remove_Outermost_Parentheses": true,
+    "LeetCode_Minimum_Insertions_to_Balance_a_Parentheses_String": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -129,9 +130,10 @@
     "2026-10-05": 3,
     "2026-10-06": 1,
     "2026-10-07": 7,
-    "2026-10-08": 1
+    "2026-10-08": 1,
+    "2026-10-09": 1
   },
   "todayProblems": [
-    "Remove Outermost Parentheses"
+    "Minimum Insertions to Balance a Parentheses String"
   ]
 }

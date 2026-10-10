@@ -78,3 +78,4 @@
 | 76 | [F - Tea Blend](./Codeforces/basic/F%20-%20Tea%20Blend) | [Codeforces](https://codeforces.com/contest/2275/problem/F) | basic | 07 Oct 2026 | 09:50 pm |
 | 77 | [Remove Outermost Parentheses](./LeetCode/Easy/Remove%20Outermost%20Parentheses) | [LeetCode](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | 08 Oct 2026 | 12:12 pm |
 | 78 | [Minimum Insertions to Balance a Parentheses String](./LeetCode/Medium/Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String) | [LeetCode](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | Medium | 09 Oct 2026 | 11:49 am |
+| 79 | [Minimum Sum of Squared Difference](./LeetCode/Medium/Minimum%20Sum%20of%20Squared%20Difference) | [LeetCode](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | Medium | 10 Oct 2026 | 02:37 pm |

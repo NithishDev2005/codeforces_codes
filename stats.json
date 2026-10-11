@@ -1,11 +1,11 @@
 {
-  "totalSolved": 79,
-  "currentStreak": 6,
+  "totalSolved": 80,
+  "currentStreak": 7,
   "maxStreak": 16,
-  "lastSyncDate": "2026-10-10",
+  "lastSyncDate": "2026-10-11",
   "todayCount": 1,
   "difficultyCounts": {
-    "easy": 15,
+    "easy": 16,
     "medium": 31,
     "hard": 16,
     "basic": 17
@@ -89,7 +89,8 @@
     "Codeforces_F_-_Tea_Blend": true,
     "LeetCode_Remove_Outermost_Parentheses": true,
     "LeetCode_Minimum_Insertions_to_Balance_a_Parentheses_String": true,
-    "LeetCode_Minimum_Sum_of_Squared_Difference": true
+    "LeetCode_Minimum_Sum_of_Squared_Difference": true,
+    "LeetCode_Sum_of_Squares_of_Special_Elements_": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -133,9 +134,10 @@
     "2026-10-07": 7,
     "2026-10-08": 1,
     "2026-10-09": 1,
-    "2026-10-10": 1
+    "2026-10-10": 1,
+    "2026-10-11": 1
   },
   "todayProblems": [
-    "Minimum Sum of Squared Difference"
+    "Sum of Squares of Special Elements "
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 86,
-  "currentStreak": 1,
+  "totalSolved": 87,
+  "currentStreak": 2,
   "maxStreak": 16,
-  "lastSyncDate": "2026-10-27",
+  "lastSyncDate": "2026-10-28",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 18,
-    "medium": 33,
+    "medium": 34,
     "hard": 18,
     "basic": 17
   },
@@ -96,7 +96,8 @@
     "LeetCode_Maximize_Sum_of_Squares_of_Digits": true,
     "LeetCode_Subarrays_Distinct_Element_Sum_of_Squares_II": true,
     "LeetCode_Find_Target_Indices_After_Sorting_Array": true,
-    "LeetCode_Create_Grid_With_Exactly_One_Path": true
+    "LeetCode_Create_Grid_With_Exactly_One_Path": true,
+    "LeetCode_Minimum_XOR_Path_in_a_Grid": true
   },
   "activityHistory": {
     "2026-08-03": 2,
@@ -147,9 +148,10 @@
     "2026-10-14": 1,
     "2026-10-16": 1,
     "2026-10-19": 1,
-    "2026-10-27": 1
+    "2026-10-27": 1,
+    "2026-10-28": 1
   },
   "todayProblems": [
-    "Create Grid With Exactly One Path"
+    "Minimum XOR Path in a Grid"
   ]
 }

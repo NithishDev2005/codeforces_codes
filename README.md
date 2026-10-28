@@ -86,3 +86,4 @@
 | 84 | [Subarrays Distinct Element Sum of Squares II](./LeetCode/Hard/Subarrays%20Distinct%20Element%20Sum%20of%20Squares%20II) | [LeetCode](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | Hard | 16 Oct 2026 | 11:27 am |
 | 85 | [Find Target Indices After Sorting Array](./LeetCode/Easy/Find%20Target%20Indices%20After%20Sorting%20Array) | [LeetCode](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | 19 Oct 2026 | 11:52 am |
 | 86 | [Create Grid With Exactly One Path](./LeetCode/Easy/Create%20Grid%20With%20Exactly%20One%20Path) | [LeetCode](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | Easy | 27 Oct 2026 | 07:10 pm |
+| 87 | [Minimum XOR Path in a Grid](./LeetCode/Medium/Minimum%20XOR%20Path%20in%20a%20Grid) | [LeetCode](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | Medium | 28 Oct 2026 | 07:11 am |
